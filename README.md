@@ -1,5 +1,7 @@
 # MyFirstApp
 
+This is a brach off the master to work on the basics portion of the [Angular - The Complete Guide (2020 Edition)](https://www.udemy.com/course/the-complete-guide-to-angular-2/) course on Udemy.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
 ## Development server
