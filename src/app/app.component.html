@@ -1,2 +1,17 @@
-<input type="text" [(ngModel)]="name">
-<p>{{ name }}</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>Assg 3 by Asad Nawaz</h1>
+            <hr>
+            <button class="btn btn-primary" (click) ="changeButtonText()">{{buttonText}}</button>
+
+            <p *ngIf="buttonText === 'Hide Paragraph'">Paragraph</p>
+
+            <ul>
+                <li *ngFor="let clickCount of clicks; let i =index"
+                [ngStyle]="{backgroundColor: clickCount >=5 ? 'blue': 'transparent'}"
+                [ngClass]="{'white-text': clickCount>=5}">Click {{i+1}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
