@@ -20,7 +20,7 @@ export class AppComponent {
     }
     else if(this.buttonText === 'Show Paragraph'){
       console.log("in else")
-      this.buttonText = 'Hide Parahraph';
+      this.buttonText = 'Hide Paragraph';
     }
     //this.buttonText === 'Hide Paragraph' ? 'Show Paragraph' : 'Hide Paragraph';
     console.log(this.buttonText)
